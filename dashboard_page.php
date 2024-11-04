@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -35,7 +34,9 @@
         </nav>
 <center>
     <div>
-        <h2>My web CuY</h2>
+        <div style="color: white; margin-top: 25vh">
+            <h2>Selamat Datang  <?php echo $_GET['userName']; ?></h2> 
+        </div>
     </div>
     
         <!-- footer -->
